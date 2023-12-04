@@ -76,14 +76,14 @@
 				<form action="<?= base_url('setting/update') ?>" method="post">
 					<div class="modal-body">
 						<div class="form-group">
-							<label for="waktu">Waktu</label>
+							<label for="waktu">Time</label>
 							<input type="hidden" name="id" id="id" value="<?= $item->id ?>">
 							<input type="text" name="waktu" id="waktu" class="form-control" value="<?= $item->waktu ?>">
 						</div>
 					</div>
 					<div class="modal-footer">
 						<button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
-						<button class="btn btn-primary" type="submit">Simpan</button>
+						<button class="btn btn-primary" type="submit">Save</button>
 					</div>
 				</form>
 			<?php } ?>
@@ -95,7 +95,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h3 class="modal-title">Reset Waktu</h3>
+				<h3 class="modal-title">Time Reset</h3>
 			</div>
 			<?php foreach ($setting as $item) { ?>
 				<form action="<?= base_url('setting/update') ?>" method="post">
@@ -103,7 +103,7 @@
 						<div class="form-group">
 							<input type="hidden" name="id" id="id" value="<?= $item->id ?>">
 							<input type="hidden" name="waktu" id="waktu" value="1.5">
-							Apakah anda yakin ingin mereset waktu ?
+							Do you want to reset the time...?
 						</div>
 					</div>
 					<div class="modal-footer">

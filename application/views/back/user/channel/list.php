@@ -47,12 +47,12 @@
 		<div class="container-fluid">
 			<div class="row mb-2">
 				<div class="col-sm-6">
-					<h1 class="m-0">List Chanel</h1>
+					<h1 class="m-0">Channel List</h1>
 				</div><!-- /.col -->
 				<div class="col-sm-6">
 					<ol class="breadcrumb float-sm-right">
 						<li class="breadcrumb-item"><a href="#">Home</a></li>
-						<li class="breadcrumb-item active">My Chanel</li>
+						<li class="breadcrumb-item active">My Channel</li>
 					</ol>
 				</div><!-- /.col -->
 			</div><!-- /.row -->
@@ -150,12 +150,12 @@
 				<div class="modal-body">
 					<div class="form-group">
 						<input type="hidden" name="id_chanel" value="<?= $item->id_chanel ?> " id="id_chanel">
-						Are you sure delete this channel ? <b><?= $item->nama ?></b>
+						Do you want to delete this channel...? <b><?= $item->nama ?></b>
 					</div>
 				</div>
 				<div class="modal-footer">
 					<button class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button class="btn btn-danger" type="submit">Hapus</button>
+					<button class="btn btn-danger" type="submit">Delete</button>
 				</div>
 			</form>
 		</div>

@@ -90,7 +90,7 @@
 							<a href="<?= base_url('user/grafik') ?>" class="nav-link">
 								<i class="nav-icon fas fa-pencil-alt pl-2"></i>
 								<p>
-									Chart
+									Chart and Diagram
 								</p>
 							</a>
 						</li>

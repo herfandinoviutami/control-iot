@@ -28,12 +28,12 @@
 		<div class="container-fluid">
 			<div class="row mb-2">
 				<div class="col-sm-6">
-					<h1 class="m-0">Chart</h1>
+					<h1 class="m-0">Chart and Diagram</h1>
 				</div><!-- /.col -->
 				<div class="col-sm-6">
 					<ol class="breadcrumb float-sm-right">
 						<li class="breadcrumb-item"><a href="#">Home</a></li>
-						<li class="breadcrumb-item active">Chart</li>
+						<li class="breadcrumb-item active">Chart and Diagram</li>
 					</ol>
 				</div><!-- /.col -->
 			</div><!-- /.row -->
@@ -47,7 +47,7 @@
 					<div class="info-box">
 						<span class="info-box-icon bg-info elevation-1"><i class="fas fa-users"></i></span>
 						<div class="info-box-content">
-							<span class="info-box-text">Many Entry</span>
+							<span class="info-box-text">Total Entry</span>
 							<span class="info-box-number">
 								<?php if (!empty($last_feeds)) { ?>
 									<?= $last_feeds['id'] ?>
@@ -336,7 +336,7 @@
 								<div class="form-group">
 									<div id='map' style='width: 100%; height: 300px;'></div>
 								</div>
-							</div>
+							</div>Chanel
 						</div>
 					</div>
 					<div class="col-md-12">

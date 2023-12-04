@@ -47,7 +47,7 @@
 						<span class="info-box-icon bg-info elevation-1"><i class="fas fa-users"></i></span>
 						<a href="<?= base_url('admin/user') ?>">
 							<div class="info-box-content">
-								<span class="info-box-text" style="color: black">Many Users</span>
+								<span class="info-box-text" style="color: black">Total Users</span>
 								<span class="info-box-number">
 									<?php if (!empty($users)) {
 										echo $users;
@@ -65,7 +65,7 @@
 						<span class="info-box-icon bg-danger elevation-1"><i class="fas fa-users-cog"></i></span>
 						<a href="<?= base_url('admin/chanel') ?>">
 							<div class="info-box-content">
-								<span class="info-box-text" style="color: black">Many Chanel</span>
+								<span class="info-box-text" style="color: black">Total Chanel</span>
 								<span class="info-box-number">
 									<?php if (!empty($chanel)) {
 										echo $chanel;
@@ -88,7 +88,7 @@
 
 						<a href="<?= base_url('admin/token') ?>">
 							<div class="info-box-content">
-								<span class="info-box-text" style="color: black">Many Write</span>
+								<span class="info-box-text" style="color: black">Total Write</span>
 								<span class="info-box-number">
 									<?php if (!empty($token_write)) {
 										echo $token_write;
@@ -106,7 +106,7 @@
 						<span class="info-box-icon bg-warning elevation-1"><i class="fas fa-pencil-ruler"></i></span>
 						<a href="<?= base_url('admin/token') ?>">
 							<div class="info-box-content">
-								<span class="info-box-text" style="color: black">Many Read</span>
+								<span class="info-box-text" style="color: black">Total Read</span>
 								<span class="info-box-number">
 									<?php if (!empty($token_read)) {
 										echo $token_read;

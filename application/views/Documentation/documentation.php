@@ -4,7 +4,7 @@
 		<div class="container-fluid">
 			<div class="row mb-2">
 				<div class="col-sm-6">
-					<h1 class="m-0">List Chanel</h1>
+					<h1 class="m-0">Channel List</h1>
 				</div><!-- /.col -->
 				<div class="col-sm-6">
 					<ol class="breadcrumb float-sm-right">
@@ -21,7 +21,7 @@
 		<div class="container-fluid">
 			<div class="card">
 				<div class="card-header">
-					<h4 class="card-title">Documentation API</h4>
+					<h4 class="card-title">API Documentation</h4>
 				</div>
 				<div class="card-body">
 					<div class="header-doc">

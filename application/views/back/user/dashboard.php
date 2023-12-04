@@ -45,7 +45,7 @@
 					<div class="info-box mb-3">
 						<span class="info-box-icon bg-gradient-gray elevation-1"><i class="fas fa-users-cog"></i></span>
 						<div class="info-box-content">
-							<span class="info-box-text">Many Chanel</span>
+							<span class="info-box-text">Total Channel</span>
 							<span class="info-box-number">
 								<?=
 								/** @var TYPE_NAME $chanelByUser */
